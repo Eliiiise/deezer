@@ -1,0 +1,7 @@
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background: rgb(245,26,210);
+    background: linear-gradient(135deg, rgba(245,26,210,1) 0%, rgb(255, 0, 111) 54%, rgba(255,0,0,1) 100%);
+}

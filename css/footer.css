@@ -1,0 +1,49 @@
+footer {
+    background-color: #292929;
+    width: calc(100% - 160px);
+    height: 300px;
+    position: absolute;
+    bottom: -800px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reseaux {
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+}
+
+.reseaux img {
+    width: 40px;
+}
+
+footer div:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+
+.legal {
+    color: white;
+    font-weight: 100;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.logofooter {
+    width: 180px;
+}
+
+.gotop {
+    width: 160px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.gotop img {
+    width: 40px;
+}

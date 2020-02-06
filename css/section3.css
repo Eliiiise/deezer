@@ -1,0 +1,96 @@
+.underTitle {
+    color: black;
+    font-size: 60px;
+    font-weight: 900;
+    width: 750px;
+    text-align: center;
+}
+
+.title {
+    color: #eff0f1;
+    font-size: 250px;
+    font-weight: bolder;
+    letter-spacing: -10px;
+    width: 100%;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.artistes {
+    margin-top: 100px;
+    position: relative;
+}
+
+.artistes>img {
+    position: absolute;
+    top: 20vh;
+    height: 80vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.artistesWhite{
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translate(-10px);
+}
+
+.description {
+    padding-bottom: 100px;
+    background: rgb(245,26,210);
+    background: linear-gradient(135deg, rgba(245,26,210,1) 0%, rgb(255, 0, 111) 54%, rgba(255,0,0,1) 100%);
+    margin-top: 40vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.description div {
+    width: 25%;
+    margin-top: 20vh;
+}
+
+.description div p {
+    margin: 5px 0;
+}
+
+.description div p:nth-of-type(1) {
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.description div p:nth-of-type(2) {
+    color: black;
+    font-weight: bold;
+    font-size: 35px;
+    background-color: white;
+    padding: 5px 7px;
+}
+
+.description div p:nth-of-type(3) {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.description div p:nth-of-type(4) {
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+    margin-top: 20px;
+}
+
+.description div:nth-of-type(1) p:nth-of-type(2) {
+    width: 80px;
+}
+
+.description div:nth-of-type(2) p:nth-of-type(2) {
+    width: 130px;
+}
+
+.description div:nth-of-type(3) p:nth-of-type(2) {
+    width: 140px;
+}

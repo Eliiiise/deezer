@@ -1,0 +1,121 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin : 0 auto;
+    max-width: 1500px;
+    padding: 0 80px;
+}
+
+header {
+    width: 100%;
+    height: 110vh;
+    background: rgb(245,26,210);
+    background: linear-gradient(135deg, rgba(245,26,210,1) 0%, rgb(255, 0, 111) 54%, rgba(255,0,0,1) 100%);
+    position: relative;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+nav img {
+    height: 25px;
+}
+
+ul:nth-of-type(2) {
+    display: flex;
+    justify-content: space-between;
+    width: 340px;
+}
+
+button{
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius:28px;
+    display:inline-block;
+    cursor:pointer;
+    font-size:17px;
+    padding:10px 31px;
+    text-decoration:none;
+    font-size: 12px;
+}
+
+.Bwhite{
+    background-color: white;
+    color: #ff006f;
+    border:0px solid #18ab29;
+}
+
+.Bcontour{
+    background-color: rgba(0,0,0,0);
+    color: white;
+    border:1.5px solid #fff;
+}
+
+
+
+h1 {
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+    width: 925px;
+    margin-left: calc(50% - (925px / 2));
+    margin-top: calc(50vh - 250px);
+}
+
+h1 em, h3 em {
+    color: rgba(0,0,0,0);
+    -webkit-text-stroke: 1.5px;
+    -webkit-text-stroke-color: #fff;
+}
+
+h2 em {
+    color: rgba(0,0,0,0);
+    -webkit-text-stroke: 1.5px;
+    -webkit-text-stroke-color: #000;
+}
+
+.angele img, .romeo img {
+    width: 500px;
+    position: absolute;
+    bottom: 0;
+}
+
+.angele img:nth-of-type(1){
+    left: -10px;
+    bottom: -10px;
+}
+
+.angele img:nth-of-type(2){
+    left: 0;
+}
+
+.romeo img:nth-of-type(1){
+    right: -10px;
+    bottom: -10px;
+}
+
+.romeo img:nth-of-type(2){
+    right: 0;
+}
+
+header .wrap>img:nth-of-type(1){
+    position: absolute;
+    width: 350px;
+    top: -200px;
+    left: 400px;
+}
+
+header .wrap>img:nth-of-type(2){
+    position: absolute;
+    width: 500px;
+    bottom:-200px;
+}
