@@ -16,14 +16,20 @@
 
 .iPhone img:nth-of-type(1) {
     transform: translateY(102px);
+    margin-top: 151px;
+    margin-bottom: -156px;
 }
 
 .iPhone img:nth-of-type(2) {
     transform: translateY(0px);
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .iPhone img:nth-of-type(3) {
     transform: translateY(49px);
+    margin-top: 68px;
+    margin-bottom: -34px;
 }
 
 .fct {

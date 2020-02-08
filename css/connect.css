@@ -3,5 +3,181 @@ body{
     width: 100%;
     display: flex;
     background: rgb(245,26,210);
-    background: linear-gradient(135deg, rgba(245,26,210,1) 0%, rgb(255, 0, 111) 54%, rgba(255,0,0,1) 100%);
+    background: linear-gradient(135deg, rgb(232, 25, 198) 0%, rgb(178, 0, 78) 54%, rgb(189, 0, 0) 100%);
+    justify-content: center;
+    align-items: center;
+}
+
+.deco {
+    background: rgb(245,26,210);
+    background: linear-gradient(135deg, rgb(241, 25, 208) 0%, rgb(255, 0, 111) 54%, rgba(255,0,0,1) 100%);
+    height: 60vh;
+    width: 25%;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    overflow: hidden;
+}
+
+.deco img:nth-of-type(1){
+    height: 30vh;
+    margin: 30px;
+}
+
+.deco img:nth-of-type(2){
+    position: absolute;
+    height: 400px;
+    right: -200px;
+    top: -100px;
+}
+
+.deco img:nth-of-type(3){
+    position: absolute;
+    height: 250px;
+    right: 200px;
+    bottom: -100px;
+}
+
+.connectPage {
+    background-color: white;
+    height: 65vh;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.cross {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 20px;
+}
+
+.cross span {
+    background-color: #B4B4B4;
+    height: 1px;
+    width: 20px;
+    display: block;
+}
+
+.cross span:nth-of-type(1) {
+    transform: rotate(45deg);
+}
+
+.cross span:nth-of-type(2) {
+    transform: rotate(-45deg);
+    margin-left: -20px;
+}
+
+h1 {
+    color: #727272;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.content {
+    width: 60%;
+}
+
+input {
+    width: calc(100% - 40px);
+    padding: 0px 10px;
+    font-size: 12px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #B3B3B3;
+    border: none;
+    outline: none;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+
+::placeholder {
+    color: #B3B3B3;
+    opacity: 1; /* Firefox */
+}
+
+hr {
+    width: 100%;
+    border: 0.5px solid #e8e8e8;
+    margin-bottom: 30px;
+}
+
+button {
+    font-weight: bold;
+    letter-spacing: 2px;
+    display:inline-block;
+    cursor:pointer;
+    font-size:17px;
+    text-decoration:none;
+    font-size: 12px;
+    margin: 10px;
+}
+
+.connexion {
+    background-color: #63F60F;
+    color: white;
+    border:0px solid #63f60f;
+    border-radius:28px;
+    padding:10px 31px;
+}
+
+.facebook {
+    background-color: #3B5998;
+    color: white;
+    border:0px solid #3B5998;
+    border-radius: 5px;
+    padding:10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.validation {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    text-align: center;
+}
+
+.validation p:nth-of-type(1){
+}
+
+.validation p:nth-of-type(2){
+    font-weight: 300;
+    color: #AFAFAF;
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+.illu {
+    position: absolute;
+    width: 14px;
+    margin: 4px;
+    right: 6px;
+}
+
+form {
+    position: relative;
+}
+
+.imgFb {
+    width: 30px;
+    margin: -5px 0px -5px -5px;
 }

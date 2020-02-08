@@ -22,12 +22,11 @@
 }
 
 .picture {
-    position: absolute;
-    top: 400px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 400px;
 }
 
 h2 {
@@ -43,4 +42,5 @@ h2 {
 .twoGirls {
     width: 40%;
     margin-right: 12%;
+    z-index: 5;
 }
